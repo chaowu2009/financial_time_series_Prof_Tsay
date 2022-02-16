@@ -1,0 +1,294 @@
+https://faculty.chicagobooth.edu/ruey-s-tsay/research/analysis-of-financial-time-series-3rd-edition
+
+Data used in the text: 
+
+(1) Daily simple returns of IBM, VW, EW, SP (01/02/70-12/31/08):
+(Format: date, IBM, VW, EW & SP): d-ibm3dx7008.txt
+(2) Daily simple returns of Intel stock (12/15/72-12/31/08): d-intc7208.txt
+(3) Daily simple returns of 3M stock (01/02/70-12/31/08): d-3m7008.txt
+(4) Daily simple returns of Microsoft stock (03/04/86-12/13/08): d-msft8608.txt
+(5) Daily simple returns of Citi-group stock (03/14/86-12/31/08): d-c8608.txt
+(6) Monthly simple returns of IBM, VW, EW, SP (1/26-12/08):
+(Format: date, IBM, VW, EW, & SP): m-ibm3dx2608.txt
+(7) Monthly simple returns of Intel stock: m-intc7308.txt
+(8) Monthly simple returns of 3M stock (02/46-12/08): m-3m4608.txt
+(9) Monthly simple returns of Microsoft stock: m-msft8608.txt
+(10) Monthly simple returns of Citi-group stock: m-c8608.txt  
+(11) Monthly 10-yr  and 1-yr Treasury constant maturity rates (04/53-02/09):
+(Format: year, month, date, rate): m-gs10.txt   & m-gs1.txt
+(12) Daily exchange rate between U.S. dollar and Japanese yen:
+(01/04/00 - 03/27/09): d-jpus.txt
+(13) Monthly bond returns (1-12m, 24-36m, 48-60m, 61-120m):
+(Format: date, bond returns): m-fama-bonds.txt
+(14) Monthly 3-yr and 5-yr Treasury constant maturity rates: m-gs3.txt  and m-gs5.txt
+(15) Weekly Treasury Bill rates: w-tb3ms.txt & w-tb6ms.txt
+
+Data sets for Exercises:
+1. Daily simple stock returns of American Express, Caterpillar, and Starbucks: d-3stocks9908.txt
+
+2. Monthly simple returns of IBM stock, VW, EW, and S&P: m-gm3dx7508.txt
+
+3. See S&P returns in Problem 2.
+
+4. See American Express stock returns in Problem 1.
+
+5. Exchange rates of Canadian Dollar: d-caus.txt
+United Kingdom Pound: d-usuk.txt  
+Japanese Yen: d-jpus.txt,  and
+Euro: d-useu.txt versus U.S. Dollar.
+
+R package used: fBasics
+
+CHAPTER 2: LINEAR TIME SERIES ANALYSIS AND ITS APPLICATIONS
+Data sets used in the chapter:
+(1) Monthly IBM stock, VW index, EW index and S&P index returns: m-ibm3dx2608.txt
+(2) Growth rate of U.S. quarterly real gnp: dgnp82.txt (same as q-gnp4791.txt)
+(3) Monthly simple returns of 3M stock: m-3m4608.txt
+(4)  U.S. quarterly GDP (1947-2008): q-gdp4708.txt
+(5)  Daily values of S&P 500 index:  d-sp55008.txt
+(6) Quarterly earnings of JNJ (1960-1980): q-jnj.txt
+(7)  Monthly simple returns of Deciles 1, 2, 9 & 10: m-deciles08.txt
+(8) Weekly 1-yr & 3-yr interest rates: w-gs1yr.txt & w-gs3yr.txt
+(9) Daily simple returns of VW and EW indices in: d-ibm3dx7008.txt
+
+Data sets for Exercises:
+3.  Monthly U.S. unemployment rate: m-unrate.txt
+
+4.  Monthly simple returns of Deciles 1, 2, 9, & 10: m-deciles08.txt  
+
+5. Daily returns of IBM (Date, IBM, VW,  EW & SP): d-ibm3dx7008.txt
+
+6.  Demand of electricity in logarithm: power6.txt
+
+7, 8 & 9.  Daily returns of IBM, VW, EW & S&P: d-ibm3dxwkdays8008.txt
+
+10,11 & 12.  Weekly yields of Moddy's AAA & BAA seasoned bonds: w-Aaa.txt and w-Baa.txt
+
+13. Monthly returns of EW: m-ew6299.txt
+
+14. Log prices of futures and spot of SP500: sp5may.dat
+
+15. Quarterly GDP implicit price deflator: q-gdpdef.txt
+
+R packages used: fBasics, fUnitRoots, timeSeries (fSeries), TSA
+
+CHAPTER 3: CONDITIONAL HETEROSCEDASTIC MODELS
+Data sets used in the text:
+(1) Monthly simple returns of Intel stock:  m-intc7308.txt
+(2) 10-minute FX log returns (Mark-Dollar): exch-perc.txt
+(3) Monthly excess returns of the S&P 500 index: sp500.dat
+(4)  Monthly simple returns of IBM stock in: m-ibmvwew2697.txt & m-ibmvwewsp2603.txt
+(5)  Daily simple returns of IBM stock, VW, EW, and SP5: d-ibmvwewsp6203.txt
+(6) Monthly log returns of IBM stock and S&P 500 index: m-ibmspln.dat
+Data for Example 3.4: m-ibmsplnsu.dat   
+(7) Daily returns of S&P 500 index: d-sp8099.txt
+
+Data sets for Exercises:
+5. Monthly simple returns of Intel stock: m-intc7308.txt
+
+6. Monthly simple returns of Merck stock: m-mrk4608.txt
+
+7. Monthly simple returns of 3M stock: m-3m4608.txt   
+
+8-10. Monthly simple returns of GM stock & SP500: m-gmsp5008.txt  
+
+11-15. Daily simple returns of GM stock and SP500: d-gmsp9908.txt
+
+R package used: fGarch
+
+CHAPTER 4: NONLINEAR MODELS AND THEIR APPLICATIONS
+Data sets used in the text:
+(1) Monthly U.S. civilian unemployment rate(48-09):  m-unrate.txt  
+(2) Daily returns of IBM stock in the file: d-ibmvwewsp6203.txt  
+(3) Monthly simple returns of 3M stock:  m-3m4608.txt   
+RATS program for smooth TAR: star.rats
+(4) Quarterly growth rates of U.S. gnp: q-gnp4791.txt
+(5) Weekly 3-month Treasury Bill rates: w-tb3ms7097.txt    
+(5) Monthly log returns, in percentages, of IBM stock: m-ibmln2699.txt   
+(6) Monthly EW, VW & IBM returns: m-ibmvwew2697.txt
+(6) Quarterly unemployment rates:  q-unemrate.txt   
+
+R and S commands for Example 4.7 are in nnet-ibm.sor
+
+Data sets for Exercises:
+1. Daily returns of JNJ stock: d-jnj9808.txt  
+
+2,3,5: Monthly returns of GE stock: m-ge2608.txt  
+
+6. Weekly U.S. interest rates:
+(a) Treasury 1-year constant maturity rates: w-gs1yr.txt
+(b) Treasury 3-year constant maturity rates: w-gs3yr.txt
+
+R packages used: fGarch, TSA
+
+CHAPTER 5: HIGH-FREQUENCY DATA ANALYSIS AND MARKET MICROSTRUCTURE
+Data sets used in the text:
+(1) IBM transactions data (11/1/90-1/31/91): The columns
+are date/time, volume, bid quote, ask quote, and
+transaction price: ibm.txt
+(2) IBM transactions data of December 1999.
+(day. time, price): ibm9912-tp.dat
+(3) BA transactions data on December 1, 2008: taq-td-ba12012008.txt
+(4) Adjusted time durations between trades (11/01/90-
+1/31/91): ibmdurad.dat
+(5) Adjusted durations in (4) for the first 5 trading days:
+Positive durations only: ibm1to5-dur.txt
+(6) Data for Example 5.2
+(a) The ADS file: ibm91-ads.dat
+(b) The explanatory variables as defined: ibm91-adsx.dat
+(7) Transactions data of IBM stock on November 21, 1990
+(a) original data: day15-ori.dat
+(b) data for PCD models:  day15.dat
+data descriptions in file: day15.txt
+(8) Daily prices of Apple stock (01/04/1999 - 11/20/2007): d-aapl9907.txt
+
+RATS programs for estimating duration models:
+The data file used is ibm1to5-dur.txt
+(a) EACD model: eacd.rats
+(b) WACD model: wacd.rats
+(c) GACD model: gacd.rats
+(d) Threshold-WACD model: tar-wacd.rats
+
+Data sets for Exercises:
+3. Adjusted durations of IBM stock (11/2/90): ibm-d2-dur.txt  
+
+4 & 5. Transactions data of 3M (12/99): mmm9912-dtp.txt
+
+6. Adjusted durations of 3M (12/99): mmm9912-adur.txt
+
+7, 8, 9 & 10. Trade data of Boeing (BA) stock:
+(a) taq-td-ba12012008.txt, (b) taq-td-ba12022008.txt, (c) taq-td-ba12032008.txt
+(d) taq-td-ba12042008.txt, & (e) taq-td-ba12052008.txt  
+R scripts: (a) number of trades: hfntra.R, (b) high-frequency returns: hfrtn.R
+
+
+CHAPTER 6: CONTINUOUS-TIME MODELS AND THEIR APPLICATIONS
+Data sets used in the text:
+(1) Daily simple returns of IBM stock in 1998: d-ibmy98.txt
+(2) Daily log returns of Cisco stock in 1999: d-csco2007.txt   
+
+Source code of a Fortran program for European call and put options based on the simple jump diffusion model discussed in the text: kou.f (You need to compile the program.)
+
+CHAPTER 7: EXTREME VALUES, QUANTILE ESTIMATION, AND VALUE AT RISK
+Data sets used in the text:
+(1) Daily returns of IBM stock:  d-ibm6298.txt  (9190 obs)
+(2) RATS programs used in Example 7.3: 
+(Note: returns used in the example are not in percentages.)
+(a) AR(2)-GARCH(1,1): example7-3a.rats
+(b) AR(2)-GARCH(1,1)-t5: example7-3b.rats
+(3) Daily log returns of Intel stock (Example 7.4): d-intc7208.txt  
+(4) Data used in Subsection 7.7.8
+(a) Mean-corrected daily log returns of IBM: d-ibmln98wm.txt  
+(b) The explanatory variables on page 294: d-ibml25x.txt    
+
+Data sets for Exercises:
+1 & 8. Daily returns of GE stock: d-ge9808.txt  
+
+2 & 3.  Daily returns of Cisco stock: d-csco9808.txt   
+
+4. Daily returns of HP and 3 indices: d-hpq3dx9808.txt   
+
+5, 6, & 7. Daily returns of Alcoa stock and S&P 500 index: d-aaspx9808.txt  
+
+R packages used: evir, nnet, fGarch
+
+CHAPTER 8: MULTIVARIATE TIME SERIES ANALYSIS AND ITS APPLICATIONS
+Data sets used in the text:
+(1) Monthly returns of IBM and S&P 500: m-ibmsp2608.txt   
+The SCA commands used to analyze the series: sca-ex-ch8.txt
+Source code of a Fortran program for multivariate Q-stat: qstat.f 
+(2) Monthly simple returns of bond indexes: m-bnd.txt  
+(3) Monthly U.S. interest rates of Example 8.6: m-gs1n3-5301.txt 
+SCA commands used: sca-ex8-6.txt
+(4) Weekly U.S. interest rates (3-m & 6-m): w-tb3n6ms.txt  
+(5) Log prices of SP500 index futures and shares: sp5may.dat
+(6) Pairs trading example: d-bhp0206.txt & d-vale0206.txt
+
+Data sets for Exercises:
+1. Monthly returns of MRK et al.: m-mrk2vw.txt  
+
+2, 3, & 4. Monthly U.S. interest rates (1 & 10 yrs): m-gs1n10.txt  
+
+7. Monthly U.S. interest rates (1-yr & 3-yr): m-gs1n3-5304.txt 
+
+R packages used: urca, fUnitRoots
+
+CHAPTER 9: PRINCIPAL COMPONENT ANALYSIS AND FACTOR MODELS
+Data sets used in the text:
+(1) Monthly stock returns of Table 9.1:  m-fac9003.txt  
+(2) Monthly macroeconomic variables: (CPI & CE16):
+m-cpice16-dp7503.txt  
+(3) Monthly excess returns of Table 9.2: m-barra-9003.txt 
+(4) Monthly log returns, in percentages, of IBM, HPQ, INTC,
+JPM & BAC stocks: m-5clog-9008.txt
+(5) Monthly returns of U.S. bond indices: m-bnd.txt m-bnd 
+(6) Monthly returns of 40 stocks in Table 9.6:
+(Company ID, date, return): m-apca0103.txt  
+
+Data sets for Exercises:
+1. Monthly returns of stocks and S&P index: m-fac-ex-9008.txt   
+
+2 Monthly returns of MRK, JNJ, GE, ... & VW index: m-mrk2vw.txt
+
+3. to 6. Monthly simple excess returns:  m-excess-c10sp-9003.txt 
+
+7. Federal funds rate & IP index: m-fedip.txt
+
+CHAPTER 10: MULTIVARIATE VOLATILITY MODELS AND THEIR APPLICATIONS
+Data sets used in the text:
+(1) HK and Japan daily market indices (Example 10.1):
+Data file (714 data pts): d-hkjp0608.txt
+Bivariate GARCH programs: hkja-c.rats and hkja-c1.rats
+(2) Monthly returns of Pfizer and Merck stocks:
+m-pfemrk6508.txt
+(3) Monthly returns of IBM and S&P 500: m-ibmsp2699.txt  
+Constant-correlation GARCH program: ibmsp-ex102.rats
+Time-varying correlation GARCH: ibmsp-ex102q.rats
+Cholesky Decomposition: ibmsp-choles.rats
+(4) Daily log returns of S&P 500, Cisco and Intel stocks:
+Data (3 columns):  d-spcscointc.txt   
+Time-varying 3-dim GARCH model: cholesky-ex103.rats
+(5) Daily exchange rates and stock returns: d-fxsk9904.txt
+
+Data sets for Exercises:
+1 - 4: Monthly log returns of S&P 500, IBM
+and GE stocks: m-ibmhpqsp6208.txt
+
+5, 6: Simple returns of GE, IBM & S&P index: m-geibmsp2608.txt
+
+7, 8, 9: Monthly log returns, in percentages, of S&P 500 index, IBM and GE stocks: m-spibmge.txt  
+
+10. Daily log returns of Dell and Cisco stocks: d-dellcsco9099.txt  
+
+CHAPTER 11: STATE-SPACE MODELS AND KALMAN FILTER
+Data sets used in the text:
+(1) Daily realized volatility series of Alcoa stock: (5m, 10m, 20m)
+aa-3rv.txt  
+(2) Monthly excess returns of GM stock: see Table 9.1 of Chapter 9.
+(3) Quarterly earnings of Johnson and Johnson: see Chapter 2.
+
+Data sets for Exercises:
+2. Realized volatility of Alcoa  stock (20m interval): aa-rv-20m.txt  
+
+3. Monthly simple excess returns of Pfizer stock and S&P 500 index:
+m-pfesp-ex9003.txt  
+5. U.S. producer price index data (January 1947 to November 2009): m-ppiaco4709.txt
+
+CHAPTER 12: MARKOV CHAIN MONTE CARLO METHODS WITH APPLICATIONS
+Data sets used in the text:
+(1) Change series of weekly US interest rates (3-y & 1-y):
+w-gs1n3c.txt  
+(2) Change series of weekly US 3-yr interest rate: w-gs3c.txt 
+(3) Monthly log returns of S&P 500 index: m-sp500-6209.txt  
+(4) Monthly log returns of IBM stock & SP 500: m-ibmsp6209.txt  
+(5) Monthly log index of S&P 500 index: m-sp5-6204.txt
+(6) Monthly log returns of GE stock: m-geln.txt   
+
+Data sets for Exercises:
+4, 6. Monthly simple returns of Ford Motors stock and S&P500: m-fsp6508.txt
+
+5. Daily returns of Cisco stock: d-csco0108.txt   
+
+7. Monthly returns of Procter & Gamble stock and VW index: m-pgvw6508.txt
+
+8. Monthly 30-year mortgage rate & 3-month Treasury Bill rate: m-mort3mtb7109.txt
